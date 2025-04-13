@@ -14,21 +14,21 @@ set background=dark
 
 hi Normal      guifg=#dadada   guibg=#101010   ctermfg=253    ctermbg=233       gui=none      cterm=none
 hi Comment     guifg=#808080   guibg=NONE      ctermfg=244    ctermbg=NONE      gui=none      cterm=none
-hi String      guifg=#cfc1b2   guibg=NONE      ctermfg=181    ctermbg=NONE      gui=none      cterm=none
-hi Constant    guifg=#bcd4e6   guibg=NONE      ctermfg=153    ctermbg=NONE      gui=none      cterm=none
+hi Constant    guifg=#cfc1b2   guibg=NONE      ctermfg=181    ctermbg=NONE      gui=none      cterm=none
+hi String      guifg=#bcd4e6   guibg=NONE      ctermfg=153    ctermbg=NONE      gui=none      cterm=none
 hi Number      guifg=#dadada   guibg=NONE      ctermfg=253    ctermbg=NONE      gui=none      cterm=none
-hi Statement   guifg=#ff5f00   guibg=NONE      ctermfg=202    ctermbg=NONE      gui=none      cterm=none
-hi PreProc     guifg=#99a4bc   guibg=NONE      ctermfg=103    ctermbg=NONE      gui=none      cterm=none
+hi Statement   guifg=#ff0000   guibg=NONE      ctermfg=196    ctermbg=NONE      gui=none      cterm=none
+hi Type        guifg=#99a4bc   guibg=NONE      ctermfg=103    ctermbg=NONE      gui=none      cterm=none
 hi! link Character  String
 hi! link Special    String
 hi! link Boolean    Constant
 hi! link Identifier Constant
 hi! link Operator   Constant
 hi! link Float      Number
-hi! link Type       PreProc
+hi! link PreProc    Constant
 
 hi! link Underlined  Constant
-hi Error        guifg=#ff0000   guibg=NONE      ctermfg=196    ctermbg=NONE      gui=none      cterm=none
+hi Error        guifg=fg        guibg=#af0000   ctermfg=fg    ctermbg=124      gui=none      cterm=none
 hi Todo         guifg=#dadada   guibg=#6b7089   ctermfg=253    ctermbg=60        gui=none      cterm=none
 hi MatchParen   guifg=fg        guibg=#5f8787   ctermfg=fg     ctermbg=66        gui=none      cterm=none
 hi NonText      guifg=#585858   guibg=NONE      ctermfg=240    ctermbg=NONE      gui=none      cterm=none
