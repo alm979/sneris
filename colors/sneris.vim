@@ -17,7 +17,7 @@ hi Comment     guifg=#808080   guibg=NONE      ctermfg=244    ctermbg=NONE      
 hi Constant    guifg=#cfc1b2   guibg=NONE      ctermfg=181    ctermbg=NONE      gui=none      cterm=none
 hi String      guifg=#bcd4e6   guibg=NONE      ctermfg=153    ctermbg=NONE      gui=none      cterm=none
 hi Number      guifg=#dadada   guibg=NONE      ctermfg=253    ctermbg=NONE      gui=none      cterm=none
-hi Statement   guifg=#ff0000   guibg=NONE      ctermfg=196    ctermbg=NONE      gui=none      cterm=none
+hi Statement   guifg=#ec3535   guibg=NONE      ctermfg=160    ctermbg=NONE      gui=none      cterm=none
 hi Type        guifg=#99a4bc   guibg=NONE      ctermfg=103    ctermbg=NONE      gui=none      cterm=none
 hi! link Character  String
 hi! link Special    String
