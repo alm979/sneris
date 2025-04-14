@@ -18,7 +18,7 @@ hi Constant    guifg=#cfc1b2   guibg=NONE      ctermfg=181    ctermbg=NONE      
 hi String      guifg=#bcd4e6   guibg=NONE      ctermfg=153    ctermbg=NONE      gui=none      cterm=none
 hi Number      guifg=#dadada   guibg=NONE      ctermfg=253    ctermbg=NONE      gui=none      cterm=none
 hi Statement   guifg=#f0e68c   guibg=NONE      ctermfg=228    ctermbg=NONE      gui=none      cterm=none
-hi Type        guifg=#909da7   guibg=NONE      ctermfg=247    ctermbg=NONE      gui=none      cterm=none
+hi Type        guifg=#9AA5AD   guibg=NONE      ctermfg=247    ctermbg=NONE      gui=none      cterm=none
 hi! link Character  String
 hi! link Special    String
 hi! link Boolean    Constant
