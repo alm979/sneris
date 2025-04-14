@@ -12,13 +12,13 @@ endif
 let colors_name="sneris"
 set background=dark
 
-hi Normal      guifg=#dadada   guibg=#101010   ctermfg=253    ctermbg=233       gui=none      cterm=none
+hi Normal      guifg=#dadada   guibg=#121212   ctermfg=253    ctermbg=233       gui=none      cterm=none
 hi Comment     guifg=#808080   guibg=NONE      ctermfg=244    ctermbg=NONE      gui=none      cterm=none
 hi Constant    guifg=#cfc1b2   guibg=NONE      ctermfg=181    ctermbg=NONE      gui=none      cterm=none
 hi String      guifg=#bcd4e6   guibg=NONE      ctermfg=153    ctermbg=NONE      gui=none      cterm=none
 hi Number      guifg=#dadada   guibg=NONE      ctermfg=253    ctermbg=NONE      gui=none      cterm=none
-hi Statement   guifg=#ec3535   guibg=NONE      ctermfg=160    ctermbg=NONE      gui=none      cterm=none
-hi Type        guifg=#99a4bc   guibg=NONE      ctermfg=103    ctermbg=NONE      gui=none      cterm=none
+hi Statement   guifg=#f0e68c   guibg=NONE      ctermfg=228    ctermbg=NONE      gui=none      cterm=none
+hi Type        guifg=#909da7   guibg=NONE      ctermfg=247    ctermbg=NONE      gui=none      cterm=none
 hi! link Character  String
 hi! link Special    String
 hi! link Boolean    Constant
@@ -64,9 +64,9 @@ hi Terminal     guifg=fg        guibg=bg        ctermfg=fg     ctermbg=bg       
 hi StatusLineTerm   guifg=fg        guibg=#262626 ctermfg=fg   ctermbg=235       gui=none      cterm=none
 hi StatusLineTermNC guifg=#cccccc   guibg=#262626 ctermfg=251  ctermbg=235       gui=none      cterm=none
 let g:terminal_ansi_colors = [
-            \'#1e2132', '#FF3600', '#859933', '#FFC552', 
-            \'#635196', '#FF761A', '#34BFA4', '#B4B4B9', 
-            \'#020221', '#FF8E78', '#B2BC55', '#FFD392', 
+            \'#101010', '#FF3600', '#859933', '#f0e68c', 
+            \'#bcd4e6', '#FF761A', '#34BFA4', '#B4B4B9', 
+            \'#020221', '#FF8E78', '#B2BC55', '#d7d7af', 
             \'#99A4BC', '#FFB07B', '#8BCCBF', '#F8F8FF']
 
 hi SpellBad     guisp=#ee0000                   ctermfg=fg     ctermbg=160       gui=undercurl cterm=undercurl
