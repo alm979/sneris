@@ -56,7 +56,7 @@ hi StatusLineNC guifg=#cccccc   guibg=#262626   ctermfg=251    ctermbg=235      
 hi TabLine      guifg=NONE      guibg=#373737   ctermfg=NONE   ctermbg=238       gui=none      cterm=none
 hi TabLineFill  guifg=fg        guibg=#262626   ctermfg=fg     ctermbg=235       gui=none      cterm=none
 hi TabLineSel   guifg=NONE      guibg=#005f87   ctermfg=NONE   ctermbg=24        gui=none      cterm=none
-hi VertSplit    guifg=#8a8a8a   guibg=#b2b2b2   ctermfg=245    ctermbg=249       gui=none      cterm=none
+hi VertSplit    guifg=#cccccc   guibg=#262626   ctermfg=245    ctermbg=249       gui=none      cterm=none
 hi Folded       guifg=fg        guibg=#585858   ctermfg=fg     ctermbg=240       gui=none      cterm=none
 hi FoldColumn   guifg=fg        guibg=#585858   ctermfg=fg     ctermbg=240       gui=none      cterm=none
 
@@ -66,7 +66,7 @@ hi StatusLineTermNC guifg=#cccccc   guibg=#262626 ctermfg=251  ctermbg=235      
 let g:terminal_ansi_colors = [
             \'#101010', '#FF3600', '#859933', '#f0e68c', 
             \'#bcd4e6', '#FF761A', '#34BFA4', '#B4B4B9', 
-            \'#020221', '#FF8E78', '#B2BC55', '#d7d7af', 
+            \'#767676', '#FF8E78', '#B2BC55', '#d7d7af', 
             \'#99A4BC', '#FFB07B', '#8BCCBF', '#F8F8FF']
 
 hi SpellBad     guisp=#ee0000                   ctermfg=fg     ctermbg=160       gui=undercurl cterm=undercurl
