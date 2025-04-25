@@ -17,7 +17,7 @@ hi Comment     guifg=#808080   guibg=NONE      ctermfg=244    ctermbg=NONE      
 hi Constant    guifg=#cfc1b2   guibg=NONE      ctermfg=181    ctermbg=NONE      gui=none      cterm=none
 hi String      guifg=#bcd4e6   guibg=NONE      ctermfg=153    ctermbg=NONE      gui=none      cterm=none
 hi Number      guifg=#dadada   guibg=NONE      ctermfg=253    ctermbg=NONE      gui=none      cterm=none
-hi Statement   guifg=#f0e68c   guibg=NONE      ctermfg=228    ctermbg=NONE      gui=none      cterm=none
+hi Statement   guifg=#edd77c   guibg=NONE      ctermfg=222    ctermbg=NONE      gui=none      cterm=none
 hi Type        guifg=#9AA5AD   guibg=NONE      ctermfg=247    ctermbg=NONE      gui=none      cterm=none
 hi! link Character  String
 hi! link Special    String
@@ -79,7 +79,7 @@ hi DiffChange   guifg=fg        guibg=#5f5f00   ctermfg=fg     ctermbg=58       
 hi DiffDelete   guifg=fg        guibg=#5f0000   ctermfg=fg     ctermbg=52        gui=none      cterm=none
 hi DiffText     guifg=#ffd700   guibg=#5f5f00   ctermfg=220    ctermbg=58        gui=none      cterm=none
 
-hi Directory    guifg=#cfc1b2   guibg=NONE      ctermfg=223    ctermbg=NONE      gui=none      cterm=none
+hi Directory    guifg=#bcd4e6   guibg=NONE      ctermfg=153    ctermbg=NONE      gui=none      cterm=none
 hi! link ErrorMsg  Error
 hi SignColumn   guifg=#afafaf   guibg=NONE      ctermfg=145    ctermbg=NONE      gui=none      cterm=none
 hi MoreMsg      guifg=#87ffff   guibg=NONE      ctermfg=123    ctermbg=NONE      gui=none      cterm=none
